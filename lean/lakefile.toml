@@ -1,0 +1,7 @@
+name = "det_matmul_verif_cert"
+version = "0.1.0"
+defaultTargets = ["DetMatmulVerifCert"]
+moreLeanArgs = ["-j", "1"]
+
+[[lean_lib]]
+name = "DetMatmulVerifCert"

@@ -1,0 +1,40 @@
+{
+  "schema_version": "DET-MATMUL-VERIF-CERT-1.0",
+  "cert_id": "C06",
+  "mode": "dual_ring_circuit_rank_30s",
+  "payload": {
+    "arith_steps_q": 2,
+    "zero_tests_r": 1,
+    "tree_cost_s": 3,
+    "dual_inputs": [
+      [
+        [
+          3,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    ],
+    "gates": [
+      {
+        "op": "inv",
+        "a": 0
+      }
+    ],
+    "expected_ab_coeff": [
+      -1,
+      27
+    ]
+  }
+}

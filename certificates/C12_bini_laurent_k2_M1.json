@@ -1,0 +1,51 @@
+{
+  "schema_version": "DET-MATMUL-VERIF-CERT-1.0",
+  "cert_id": "C12",
+  "mode": "bini_border_rank_and_laurent",
+  "payload": {
+    "submode": "bini_laurent_interpolation",
+    "pole_order_M": 1,
+    "poly_degree_D": 4,
+    "border_rank_r": 7,
+    "tensor_power_k": 2,
+    "poly_coeffs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1764,
+        1
+      ],
+      [
+        -13,
+        2
+      ],
+      [
+        9,
+        4
+      ]
+    ],
+    "target_coeff_index": 6
+  }
+}

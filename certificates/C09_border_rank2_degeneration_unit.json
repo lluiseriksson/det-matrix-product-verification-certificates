@@ -1,0 +1,50 @@
+{
+  "schema_version": "DET-MATMUL-VERIF-CERT-1.0",
+  "cert_id": "C09",
+  "mode": "bini_border_rank_and_laurent",
+  "payload": {
+    "submode": "rank2_border_degeneration",
+    "u1": [
+      1,
+      1
+    ],
+    "u2": [
+      2,
+      1
+    ],
+    "v1": [
+      3,
+      1
+    ],
+    "v2": [
+      5,
+      1
+    ],
+    "c1": [
+      7,
+      1
+    ],
+    "c2": [
+      11,
+      1
+    ],
+    "t_values": [
+      [
+        1,
+        10
+      ],
+      [
+        1,
+        100
+      ],
+      [
+        1,
+        1000
+      ],
+      [
+        1,
+        10000
+      ]
+    ]
+  }
+}

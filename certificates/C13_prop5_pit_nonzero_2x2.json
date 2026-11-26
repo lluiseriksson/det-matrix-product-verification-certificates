@@ -1,0 +1,75 @@
+{
+  "schema_version": "DET-MATMUL-VERIF-CERT-1.0",
+  "cert_id": "C13",
+  "mode": "whitebox_pit_and_dense_quadratic",
+  "payload": {
+    "submode": "prop5_pit_encodings",
+    "matrix_dim": 2,
+    "A": [
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "B": [
+      [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ],
+    "C": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    ]
+  }
+}
